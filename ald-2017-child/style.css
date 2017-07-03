@@ -11,3 +11,24 @@ License:      GNU General Public License v2 or later
 Text Domain:	 Tw17-child
 -------------------------------------------------------------- */ 
 
+
+/****************************************************************
+* change header image size
+*****************************************************************/
+
+.has-header-image .custom-header-media img {
+	height: 350px ;
+	object-fit: none;
+	min-height: 0;
+}
+
+
+@media screen and (min-width: 48em) {
+
+	.twentyseventeen-front-page.has-header-image .custom-header-media {
+		max-height: 550px;
+
+	}
+
+	
+}
